@@ -1,12 +1,12 @@
-infix fun String.to(type: String):String{
-    if (type == "up"){
-        return  this.toUpperCase()
+infix fun String.to(type:String):String{
+    if (type == "UPP"){
+        return this.toUpperCase()
     }else{
         return this.toLowerCase()
     }
 }
 
 fun main() {
-      val hasil="Fadlan" to "up"
-    println(hasil)
+    val nama="Fadlan" to "UP"
+    println(nama)
 }
